@@ -5,11 +5,12 @@
 * Every collection type represented class provides, methods to perform operations on elements of those objects.
 
 #### Python supports following collection types......
-
+<pre>
 1.List
 2.Tuple
 3.Set
 4.Dict
+</pre>
 
 ## List:-
 
