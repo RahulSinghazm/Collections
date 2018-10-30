@@ -24,6 +24,6 @@
 * List is a iterables type.
 
 
-## Tuple:-
-## Set:-
-## Dict:-
+
+
+
