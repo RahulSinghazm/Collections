@@ -91,7 +91,7 @@ class 'list'
 11
 </pre>
 
-### Example:
+### Example:2-
 <pre>
 a=[10,20,30,40,50,60]
 print(a)
@@ -114,4 +114,33 @@ print(a)
 []
 [30, 40, 50]
 [10, 20, 123, 40, 50, 60]
+</pre>
+
+### Example:3-
+<pre>
+a=[10,20,30,40,50,60]
+print(a)
+s=0
+for p in a:
+    s=s+p
+    print(s)
+    i=0
+    s2=0
+    while i<len(a):
+        s2=s2+a[i]
+        i=i+1
+print(s2)
+
+</pre>
+
+### Output:
+<pre>
+[10, 20, 30, 40, 50, 60]
+10
+30
+60
+100
+150
+210
+210
 </pre>
