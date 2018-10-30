@@ -66,27 +66,27 @@ print(len(f))
 ### Output:
 <pre>
 []
-<class 'list'>
+class 'list'
 1867365174728
 0
 []
-<class 'list'>
+class 'list'
 1867367625288
 0
 [10, 20, 30, 40, 50]
-<class 'list'>
+class 'list'
 1867365174088
 5
 [10, 123.123, (3+4j), True, 'Rahul Singh']
-<class 'list'>
+class 'list'
 1867365173000
 5
 [1, 2, 3, 1, 2, 1]
-<class 'list'>
+class 'list'
 1867365173512
 6
 ['R', 'a', 'h', 'u', 'l', ' ', 'S', 'i', 'n', 'g', 'h']
-<class 'list'>
+class 'list'
 1867367625352
 11
 </pre>
