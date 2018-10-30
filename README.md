@@ -40,11 +40,11 @@ print(len(b))
 ### Output:
 <pre>
 []
-<class 'list'>
+class 'list'
 2810782764360
 0
 []
-<class 'list'>
+class 'list'
 2810785280200
 0
 </pre>
