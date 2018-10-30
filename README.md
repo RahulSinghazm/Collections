@@ -36,3 +36,15 @@ print(type(b))
 print(id(b))
 print(len(b))
 </pre>
+
+### Output:
+<pre>
+[]
+<class 'list'>
+2810782764360
+0
+[]
+<class 'list'>
+2810785280200
+0
+</pre>
