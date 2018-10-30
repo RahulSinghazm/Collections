@@ -23,7 +23,16 @@
 * List supports both + and - indexing.
 * List is a iterables type.
 
-
-
-
-
+### Example:
+<pre>
+a=[]
+print(a)
+print(type(a))
+print(id(a))
+print(len(a))
+b=list()
+print(b)
+print(type(b))
+print(id(b))
+print(len(b))
+</pre>
