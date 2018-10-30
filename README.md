@@ -14,7 +14,7 @@
 
 ## List:-
 
-* List objects can be created by using [] square brackets or by calling list functions.
+* List objects can be created by using [ ] square brackets or by calling list functions.
 * List objects are mutable objects.
 * List can be muatable or immutable
 * Insertion order is reserved list.
