@@ -130,7 +130,6 @@ for p in a:
         s2=s2+a[i]
         i=i+1
 print(s2)
-
 </pre>
 
 ### Output:
