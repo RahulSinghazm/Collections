@@ -143,7 +143,7 @@ print(s2)
 210
 210
 </pre>
-</pre>
+
 ## Nested List:-
 a list can even have another list as an item. This is called nested list
 
@@ -155,9 +155,9 @@ for p in a:
     print(type(p))
     for q in p:
         print(q)
-</pre>
- </pre>   
- ### Output:
+</pre>   
+ 
+### Output:
 <pre>
  [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
 class 'list'
@@ -172,9 +172,8 @@ class 'list'
 70
 80
 90
+</pre>
 
-</pre>
-</pre>
 ### Example:2-
 <pre>
 a=[[10,20,30],[40,50,60],[70,80,90]]
