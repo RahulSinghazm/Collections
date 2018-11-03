@@ -145,5 +145,85 @@ print(s2)
 </pre>
 
 ## Nested List:-
+a list can even have another list as an item. This is called nested list
 
 ### Example:
+<pre>
+a=[[10,20,30],[40,50,60],[70,80,90]]
+print(a)
+for p in a:
+    print(type(p))
+    for q in p:
+        print(q)
+    </pre>
+    
+ ### Output:
+ <pre>
+ [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+class 'list'
+10
+20
+30
+class 'list'
+40
+50
+60
+class 'list'
+70
+80
+90
+ </pre>
+
+### Example:2-
+<pre>
+a=[[10,20,30],[40,50,60],[70,80,90]]
+print(a)
+for q in a:
+    print(q, end="")
+    print()
+</pre>
+### Output:
+<pre>
+[[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+[10, 20, 30]
+[40, 50, 60]
+[70, 80, 90]
+</pre
+
+### Example:3-
+<pre>
+a=[[10,20,30],[40,50,60],[70,80,90]]
+print(a)
+for p,q,r in a:
+    print(p,q,r)
+</pre>
+### Output:
+<pre>
+[[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+10 20 30
+40 50 60
+70 80 90
+</pre
+
+### Example:4-
+<pre>
+a=[[1001,'Rahul',8000.00],[3003,'Rohit',6000.00],[2002,'Alok',4000.00]]
+print('Befor Sorting')
+for p in a:
+    print(p)
+a.sort()
+print('After Sorting')
+for q in a:
+    print(q)
+</pre>
+### Output:
+<pre>
+Befor Sorting
+[1001, 'Rahul', 8000.0]
+[3003, 'Rohit', 6000.0]
+[2002, 'Alok', 4000.0]
+After Sorting
+[1001, 'Rahul', 8000.0]
+[2002, 'Alok', 4000.0]
+[3003, 'Rohit', 6000.0]
+</pre
