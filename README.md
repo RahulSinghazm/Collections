@@ -131,7 +131,7 @@ for p in a:
         i=i+1
 print(s2)
 </pre>
-
+</pre>
 ### Output:
 <pre>
 [10, 20, 30, 40, 50, 60]
@@ -143,7 +143,7 @@ print(s2)
 210
 210
 </pre>
-
+</pre>
 ## Nested List:-
 a list can even have another list as an item. This is called nested list
 
@@ -156,7 +156,7 @@ for p in a:
     for q in p:
         print(q)
 </pre>
-    
+ </pre>   
  ### Output:
 <pre>
  [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
@@ -172,8 +172,9 @@ class 'list'
 70
 80
 90
-</pre>
 
+</pre>
+</pre>
 ### Example:2-
 <pre>
 a=[[10,20,30],[40,50,60],[70,80,90]]
@@ -181,6 +182,7 @@ print(a)
 for q in a:
     print(q, end="")
     print()
+</pre>
 </pre>
 
 ### Output:
@@ -190,6 +192,7 @@ for q in a:
 [40, 50, 60]
 [70, 80, 90]
 </pre>
+</pre>
 
 ### Example:3-
 <pre>
@@ -198,6 +201,7 @@ print(a)
 for p,q,r in a:
     print(p,q,r)
 </pre>
+</pre>
 
 ### Output:
 <pre>
@@ -205,6 +209,7 @@ for p,q,r in a:
 10 20 30
 40 50 60
 70 80 90
+</pre>
 </pre>
 
 ### Example:4-
