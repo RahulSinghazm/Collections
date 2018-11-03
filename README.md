@@ -231,3 +231,30 @@ After Sorting
 [2002, 'Alok', 4000.0]
 [3003, 'Rohit', 6000.0]
 </pre>
+
+
+## Tuple:
+* Tuple object can be created by using parenthesis () or by calling tuple 
+function or by assigning  multiple values to a single variable.
+* Tuple objects are immutable objects
+* Insertion order is preserved
+* Duplicate elements are allowed
+* Hetrogenious elements are allowed
+* Tuple supports both positive and negative indexing
+* The elements of the tuple can be mutable or immutable
+
+### Example:-
+<pre>
+
+</pre>
+### Output:
+<pre>
+
+</pre>
+
+### Example:-
+<pre>
+</pre>
+### Output:
+<pre>
+</pre>
