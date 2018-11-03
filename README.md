@@ -182,6 +182,7 @@ for q in a:
     print(q, end="")
     print()
 </pre>
+
 ### Output:
 <pre>
 [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
@@ -197,6 +198,7 @@ print(a)
 for p,q,r in a:
     print(p,q,r)
 </pre>
+
 ### Output:
 <pre>
 [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
@@ -216,6 +218,7 @@ print('After Sorting')
 for q in a:
     print(q)
 </pre>
+
 ### Output:
 <pre>
 Befor Sorting
