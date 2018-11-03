@@ -220,6 +220,7 @@ for q in a:
 </pre>
 
 ### Output:
+
 <pre>
 Befor Sorting
 [1001, 'Rahul', 8000.0]
