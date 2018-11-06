@@ -279,12 +279,54 @@ print(len(e))
 </pre>
 ### Output:
 <pre>
+()
+class 'tuple'
+2097271734344
+0
+()
+class 'tuple'
+2097271734344
+0
+(10, 20)
+class 'tuple'
+2097312005576
+2
+(10, 20, 30, 40, 50, 10, 20, 10)
+class 'tuple'
+2097311922776
+8
+(100, 123.123, True, (123+7j), 'Rahul Singh')
+class 'tuple'
+2097311835680
+5
+</pre>
+
+### Example:-
+<pre>
+
+</pre>
+
+### Output:
+<pre>
 
 </pre>
 
 ### Example:-
 <pre>
+
 </pre>
+
 ### Output:
 <pre>
+
+</pre>
+
+### Example:-
+<pre>
+
+</pre>
+
+### Output:
+<pre>
+
 </pre>
