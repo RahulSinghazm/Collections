@@ -353,7 +353,3 @@ for p in a:
 
 ### Example:-
 <pre>
-
-</pre>
-
-
