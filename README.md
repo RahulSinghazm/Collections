@@ -356,5 +356,4 @@ for p in a:
 
 </pre>
 
-### Output:
 
