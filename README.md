@@ -353,7 +353,7 @@ for p in a:
 
 
 ## Different between List and Tuple:
-### List                                                          Tuple
+<pre>### List                                                          Tuple</pre>
 <pre>
 1.List object are mutable object                   Tuple object are immutable object.
 
