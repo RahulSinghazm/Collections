@@ -354,8 +354,10 @@ for p in a:
 
 ## Different between List and Tuple:
 ### List                                                          Tuple
+<pre>
 1.List object are mutable object                   Tuple object are immutable object.
 
 2.Applying iterable on list object
   takes more time                                   Applying iterable on tuple object 
                                                     takes less time.
+                                                    </pre>
