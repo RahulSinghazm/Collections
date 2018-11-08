@@ -366,10 +366,11 @@ for p in a:
   to use list
  
 4.List cannot be use as a 'Key'                     Tuple can be use as a 'Key' for the 
-  for the Dictionar                                 Dictionary if the tuple is storing
-                                                    only immutable elements.
+  for the Dictionar                                 Dictionary if the tuple is storing only 
+                                                    immutable elements.
  
-5.
+5.List object cannot use as                         Tuple object can use as elements of the
+  elements of Set                                   set.
   
   
                                                     </pre>
