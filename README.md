@@ -372,3 +372,9 @@ for p in a:
 5.List object cannot use as                         Tuple object can use as elements of the
   elements of Set                                   set.
   </pre>
+  
+  
+  
+  ## Set:
+  * Set object can be created by using only braces or curlly or {} or by calling set function or set().
+  * Insertion order is nor preserve in set.
