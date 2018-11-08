@@ -360,12 +360,16 @@ for p in a:
 2.Applying iterable on list object                 Applying iterable on tuple object  
   takes more time                                  takes less time.                                                      
                                            
- 3.If the frequent operation is                      If the frequent operation is retriveal
- insertion or deletion of the                        of the elements then it is recommended 
- elements then it is recommended                     to use tuple.
- to use list
+3.If the frequent operation is                      If the frequent operation is retriveal
+  insertion or deletion of the                      of the elements then it is recommended 
+  elements then it is recommended                    to use tuple.
+  to use list
  
- 4.
+4.List cannot be use as a 'Key'                     Tuple can be use as a 'Key' for the 
+  for the Dictionar                                 Dictionary if the tuple is storing
+                                                    only immutable elements.
+ 
+5.
   
   
                                                     </pre>
