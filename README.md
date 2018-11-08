@@ -378,3 +378,5 @@ for p in a:
   ## Set:
   * Set object can be created by using only braces or curlly or {} or by calling set function or set().
   * Insertion order is nor preserve in set.
+  * Duplicates elements is not allowed.
+  * Hetrogenious elements are allowed in set.
