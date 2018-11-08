@@ -382,4 +382,6 @@ for p in a:
   * Hetrogenious elements are allowed in set.
   * Set is not support indexing.
   * Set object are mutable object.
+  * Elements of the set must be immutable.
+  * We can perform the mathmeticals set operations like Union,InterSection, and difference and Symmetric differnt on set objects.
   
