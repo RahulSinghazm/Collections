@@ -18,3 +18,10 @@ print(d)
 
 e={100,123.123,True,3+5j,"Rahul Singh"}
 print(e)
+p,q,r,s,t=e
+print(e)
+print(type(p))
+print(type(q))
+print(type(r))
+print(type(s))
+print(type(t))
