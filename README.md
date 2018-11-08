@@ -422,22 +422,22 @@ print(type(t))
 ### Output:
 <pre>
 {10}
-<class 'set'>
+class 'set'
 1
 2212222840616
 set()
-<class 'set'>
+class 'set'
 0
 2212222839944
 {40, 10, 50, 20, 30}
 {10, 20, 30}
 {True, 'Rahul Singh', 100, (3+5j), 123.123}
 {True, 'Rahul Singh', 100, (3+5j), 123.123}
-<class 'bool'>
-<class 'str'>
-<class 'int'>
-<class 'complex'>
-<class 'float'>
+class 'bool'
+class 'str'
+class 'int'
+class 'complex'
+class 'float'
 </pre>
 
 * Tuple can be stored in set , as it is immutable object.
