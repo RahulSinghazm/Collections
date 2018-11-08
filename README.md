@@ -442,3 +442,35 @@ class 'float'
 
 * Tuple can be stored in set , as it is immutable object.
 * Set in set also not possible in set, because set in set is immutable.
+
+### Example:
+<pre>
+a={10,20,30,40,50}
+print(a)
+print(30 in a)
+print(25 in a)
+for p in a:
+    print(p)
+b={(10,20,30),(40,50,60),(70,80,90)}
+print(a)
+for q in b:
+    print(q,type(q))
+</pre>
+
+### Output:
+<pre>
+ ======
+{40, 10, 50, 20, 30}
+True
+False
+40
+10
+50
+20
+30
+{40, 10, 50, 20, 30}
+(10, 20, 30) <class 'tuple'>
+(40, 50, 60) <class 'tuple'>
+(70, 80, 90) <class 'tuple'>
+
+</pre>
