@@ -385,3 +385,60 @@ for p in a:
   * Elements of the set must be immutable.
   * We can perform the mathmeticals set operations like Union,InterSection, and difference and Symmetric differnt on set objects.
   
+  
+  ### Example:
+  <pre>
+  a={10}
+print(a)
+print(type(a))
+print(len(a))
+print(id(a))
+
+b=set()
+print(b)
+print(type(b))
+print(len(b))
+print(id(b))
+
+c={10,20,30,40,50}
+print(c)
+
+d={10,20,10,20,10,30}
+print(d)
+
+e={100,123.123,True,3+5j,"Rahul Singh"}
+print(e)
+
+p,q,r,s,t=e
+print(e)
+print(type(p))
+print(type(q))
+print(type(r))
+print(type(s))
+print(type(t))
+
+  </pre>
+  
+### Output:
+<pre>
+{10}
+<class 'set'>
+1
+2212222840616
+set()
+<class 'set'>
+0
+2212222839944
+{40, 10, 50, 20, 30}
+{10, 20, 30}
+{True, 'Rahul Singh', 100, (3+5j), 123.123}
+{True, 'Rahul Singh', 100, (3+5j), 123.123}
+<class 'bool'>
+<class 'str'>
+<class 'int'>
+<class 'complex'>
+<class 'float'>
+</pre>
+
+* Tuple can be stored in set , as it is immutable object.
+* Set in set also not possible in set, because set in set is immutable.
