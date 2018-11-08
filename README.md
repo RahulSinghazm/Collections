@@ -357,7 +357,15 @@ for p in a:
 <pre>
 1.List object are mutable object                   Tuple object are immutable object.
 
-2.Applying iterable on list object
-  takes more time                                   Applying iterable on tuple object 
-                                                    takes less time.
+2.Applying iterable on list object                 Applying iterable on tuple object  
+  takes more time                                  takes less time.                                                      
+                                           
+ 3.If the frequent operation is                      If the frequent operation is retriveal
+ insertion or deletion of the                        of the elements then it is recommended 
+ elements then it is recommended                     to use tuple.
+ to use list
+ 
+ 4.
+  
+  
                                                     </pre>
