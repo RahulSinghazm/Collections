@@ -380,3 +380,6 @@ for p in a:
   * Insertion order is nor preserve in set.
   * Duplicates elements is not allowed.
   * Hetrogenious elements are allowed in set.
+  * Set is not support indexing.
+  * Set object are mutable object.
+  
