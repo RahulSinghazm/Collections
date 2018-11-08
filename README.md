@@ -474,3 +474,20 @@ False
 (70, 80, 90) <class 'tuple'>
 
 </pre>
+
+* If tuple contains immutable elements then only we can use the tuple in the set.
+
+### Example:
+<pre>
+a={(10,20,30),(40,50,60,[1,2,3]),(70,80,90)}
+print(a)
+
+</pre>
+
+### Output:
+<pre>
+Traceback (most recent call last):
+  File "C:\Users\Rahul SIngh\AppData\Local\Programs\Python\Python37\Test1.py", line 1, in <module>
+    a={(10,20,30),(40,50,60,[1,2,3]),(70,80,90)}
+TypeError: unhashable type: 'list
+</pre>
