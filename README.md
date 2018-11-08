@@ -371,6 +371,4 @@ for p in a:
  
 5.List object cannot use as                         Tuple object can use as elements of the
   elements of Set                                   set.
-  
-  
-                                                    </pre>
+  </pre>
