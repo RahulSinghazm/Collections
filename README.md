@@ -730,4 +730,23 @@ print(d)
 {(1, 2, 3): 'Flash', 'Hyd': [5, 6, 7]}
 </pre>
 
+### Example:
+<pre>
+a={"Python":101,"Java":202,"Oracle":303,"Django":404}
+print(a)
+a['Pyramid']=87
+print(a)
+print(a['Python'])
+print(a.get('Django'))
+a.pop('Oracle')
+print(a)
+</pre>
 
+### Output:
+<pre>
+{'Python': 101, 'Java': 202, 'Oracle': 303, 'Django': 404}
+{'Python': 101, 'Java': 202, 'Oracle': 303, 'Django': 404, 'Pyramid': 87}
+101
+404
+{'Python': 101, 'Java': 202, 'Django': 404, 'Pyramid': 87}
+</pre>
