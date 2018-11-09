@@ -760,4 +760,41 @@ dict_keys(['Python', 'Java', 'Django'])
 dict_values([101, 202, 404])
 </pre>
 
+## Note
+### In DICT objects popitems() deleting last item or and in SET objects pop deleteing first item.
 
+## Item Method:
+
+### Example:
+<pre>
+a={"Python":101,"Java":202,"Oracle":303,"Django":404}
+print(a)
+kv=a.items()
+for p in kv:
+    print(p[0],p[1])
+print('Python' in a)
+print(20 in a)
+b=a.copy()
+print(b)
+a.pop('Java')
+print(a)
+a.popitem()
+print(a)
+a.clear()
+print(a)
+</pre>
+
+### Output:
+<pre>
+{'Python': 101, 'Java': 202, 'Oracle': 303, 'Django': 404}
+Python 101
+Java 202
+Oracle 303
+Django 404
+True
+False
+{'Python': 101, 'Java': 202, 'Oracle': 303, 'Django': 404}
+{'Python': 101, 'Oracle': 303, 'Django': 404}
+{'Python': 101, 'Oracle': 303}
+{}
+</pre>
