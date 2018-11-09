@@ -491,3 +491,136 @@ Traceback (most recent call last):
     a={(10,20,30),(40,50,60,[1,2,3]),(70,80,90)}
 TypeError: unhashable type: 'list
 </pre>
+
+* Discard method will not display any error if given no. is not 'Set'.
+* Remove method will display 'Key Error' if given no. is not in 'Set'.
+
+### Example:
+<pre>
+a={10,20,30,40,50}
+print(a)
+a.add(60)
+print(a)
+y=a.copy()
+print(y)
+a.remove(20)
+print(a)
+a.pop()
+print(a)
+a.discard(30)
+print(a)
+a.clear()
+print(a)
+b=[10,20,30,20,10,30]
+print(b)
+c=set(b)
+print(c)
+print(b)
+
+</pre>
+
+### Output:
+<pre>
+{40, 10, 50, 20, 30}
+{40, 10, 50, 20, 60, 30}
+{50, 20, 40, 10, 60, 30}
+{40, 10, 50, 60, 30}
+{10, 50, 60, 30}
+{10, 50, 60}
+set()
+[10, 20, 30, 20, 10, 30]
+{10, 20, 30}
+[10, 20, 30, 20, 10, 30]
+</pre>
+
+### * We can perform the mathmeticals set operations like Union,InterSection, and difference and Symmetric differnt on set objects.
+
+
+### Example:
+<pre>
+a={1,2,3,4,5}
+print(a)
+b={4,5,6,7,8}
+print(b)
+print(a|b)
+print(b|a)
+print(a.union(b))
+print(b.union(a))
+print(a&b)
+print(b&a)
+print(a.intersection(b))
+print(b.intersection(a))
+print(a-b)
+print(b-a)
+print(a.difference(b))
+print(b.difference(a))
+print(a^b)
+print(b^a)
+print(a.symmetric_difference(b))
+print(b.symmetric_difference(a))
+
+</pre>
+
+### Output:
+<pre>
+{1, 2, 3, 4, 5}
+{4, 5, 6, 7, 8}
+{1, 2, 3, 4, 5, 6, 7, 8}
+{1, 2, 3, 4, 5, 6, 7, 8}
+{1, 2, 3, 4, 5, 6, 7, 8}
+{1, 2, 3, 4, 5, 6, 7, 8}
+{4, 5}
+{4, 5}
+{4, 5}
+{4, 5}
+{1, 2, 3}
+{8, 6, 7}
+{1, 2, 3}
+{8, 6, 7}
+{1, 2, 3, 6, 7, 8}
+{1, 2, 3, 6, 7, 8}
+{1, 2, 3, 6, 7, 8}
+{1, 2, 3, 6, 7, 8}
+</pre>
+
+
+### Example:
+<pre>
+a=[10,20,10,30,10,20]
+print(a)
+b=set(a)
+print(b)
+c='Rahul Rohit'
+print(c)
+d=set(c)
+print(d)
+
+</pre>
+
+### Output:
+<pre>
+[10, 20, 10, 30, 10, 20]
+{10, 20, 30}
+Rahul Rohit
+{'a', 'i', 'u', 'o', 't', 'R', 'l', 'h', ' '}
+</pre>
+
+## Set Comprehension:
+* The concept of generating the elements into the set objects by writing some logic in the set is know as 'Set Comprehension'.
+
+### Example:
+<pre>
+a={p for p in range(10)}
+print(a)
+b={q*q for q in range(10,20) if q%2==0}
+print(b)
+c={r for r in range(20,30) if r%2!=0}
+print(c)
+</pre>
+
+### Output:
+<pre>
+{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+{256, 196, 100, 324, 144}
+{21, 23, 25, 27, 29}
+</pre>
