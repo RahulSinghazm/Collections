@@ -624,3 +624,42 @@ print(c)
 {256, 196, 100, 324, 144}
 {21, 23, 25, 27, 29}
 </pre>
+
+
+## Dictionary(dict):
+* Dictionary objects can be created by using curly braces {} or by calling dict function or dict().
+* Dictionary objects are mutable objects.
+* Dictionary represents Key-Value base.
+* Each Key-Value pair of dictionary is known as a item.
+* Dictionary Keys must be immutable.
+* Dictionary Value can be mutable or immutable.
+* Duplicate Keys are not allowed but values can be duplicate.
+* Insertion order is not preserved.
+* Hetrogenious Keys and Hetrogenious value are allowed.
+
+### Example:
+<pre>
+a={}
+print(a)
+print(type(a))
+print(len(a))
+b=dict()
+print(b)
+print(type(b))
+print(len(b))
+c={"python":99,"java":90,"oracle":82,"django":97}
+print(c)
+
+</pre>
+
+### Output:
+<pre>
+{}
+<class 'dict'>
+0
+{}
+<class 'dict'>
+0
+{'python': 99, 'java': 90, 'oracle': 82, 'django': 97}
+</pre>
+
