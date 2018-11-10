@@ -820,5 +820,5 @@ Python 101
 Java 202
 Oracle 303
 Django 404
-Total: 4
+Total: 1010
 </pre>
