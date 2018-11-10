@@ -760,7 +760,8 @@ dict_keys(['Python', 'Java', 'Django'])
 dict_values([101, 202, 404])
 </pre>
 
-## Note:-<pre>In DICT objects popitems() deleting last item or and in SET objects pop deleteing first item.</pre>
+## Note:-<pre>In DICT objects popitems() deleting last item or and in SET objects
+              pop deleteing first item.</pre>
 
 
 # Item Method:
