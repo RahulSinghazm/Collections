@@ -798,3 +798,27 @@ False
 {'Python': 101, 'Oracle': 303}
 {}
 </pre>
+
+### Example:
+<pre>
+a={"Python":101,"Java":202,"Oracle":303,"Django":404}
+print(a)
+kv=a.items()
+print(kv)
+sum=0
+for p in kv:
+    print(p[0],p[1])
+    sum=sum+1
+print('Total:',sum)
+</pre>
+
+### Output:
+<pre>
+{'Python': 101, 'Java': 202, 'Oracle': 303, 'Django': 404}
+dict_items([('Python', 101), ('Java', 202), ('Oracle', 303), ('Django', 404)])
+Python 101
+Java 202
+Oracle 303
+Django 404
+Total: 4
+</pre>
