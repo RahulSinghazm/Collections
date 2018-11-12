@@ -838,3 +838,7 @@ for k,v in a.items():
 (4, 5, 6) {40, 50, 60}
 (7, 8, 9) (70, 80, 90)
 </pre>
+
+## Dictionary Comprehension:
+ the concept of generating items into the dictionary by writing some logic in the 
+ dictionary is known as " D ictionary Comprehension".
