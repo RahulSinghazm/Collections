@@ -845,7 +845,11 @@ for k,v in a.items():
  
  ### Example:
  <pre>
- 
+ a={p:p*p in range (5)}
+print(a)
+b={q:q*q in range (5,15) if q%2!=0}
+print(b)
+
  </pre>
  
  ### Output:
