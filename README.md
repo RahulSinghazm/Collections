@@ -842,3 +842,13 @@ for k,v in a.items():
 ## Dictionary Comprehension:
  the concept of generating items into the dictionary by writing some logic in the 
  dictionary is known as " D ictionary Comprehension".
+ 
+ ### Example:
+ <pre>
+ 
+ </pre>
+ 
+ ### Output:
+ <pre>
+ 
+ </pre>
