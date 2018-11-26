@@ -1,4 +1,4 @@
-# Collections
+                            # Collections
 
 * Collection types represented closes objects are stored in group of objects(elements).
 * Collection types represented closes objects are iterable objects.
@@ -851,5 +851,5 @@ Coming soon..... ?
  
  ### Output:
  <pre>
- Coming soon..... ?
+ Coming soon...... ?
  </pre>
