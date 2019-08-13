@@ -10,5 +10,6 @@ a.popitem()
 print(a)
 k=a.keys()
 print(k)
+
 v=a.values()
 print(v)
